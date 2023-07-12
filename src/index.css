@@ -1,0 +1,448 @@
+
+
+/* NavBar */
+.navbar {
+  background-color: #98EECC;
+}
+
+.logo-text {
+  font-family: 'Dancing Script';
+  font-weight: bold;
+  font-size: 36px;
+  color: #1f1d19;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.link-text {
+  font-family: "Dancing Script";
+  font-size: 22px;
+}
+
+/* Home */
+.white-section, .colored-section {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Montserrat";
+  padding-bottom: 50px;
+}
+
+
+h1 {
+  padding-bottom: 5px;
+}
+
+
+.fs-img {
+  width: 55%;
+}
+
+.colored-section {
+  background-color: #98EECC;
+}
+
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  margin: 50px auto 20px;
+}
+
+.colored-section h5 {
+  font-size: 20px;
+  max-width: 75%;
+  margin: 40px auto 0;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.about-me {
+  padding-bottom: 400px;
+}
+
+.skills {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: -300px;
+  border-radius: 8px;
+}
+.skills hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.skills h6 {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #176B87;
+}
+
+.icon-border {
+  margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #98EECC;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.examples {
+  line-height: 2;
+}
+
+p.summury {
+  line-height: 1.7;
+}
+
+.contact-me {
+  position: relative;
+  background-color: #164B60;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+  margin: 150px auto -150px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+@media (max-width: 800px) {
+  .contact-me {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-text {
+  color: white;
+  width: 85%;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.portfolio-button {
+  background-color: #98EECC;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 31px;
+  transition: all 0.4s ease;
+  max-width: 170px;
+}
+
+
+.contact-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  width: 62%;
+  margin-bottom: 50px;
+  
+}
+
+.contact-button {
+  background-color: #98EECC;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 31px;
+  transition: all 0.4s ease;
+  max-width: 170px;
+}
+
+.portfolio-button:hover, .contact-button:hover {
+ background-color: #176B87;
+ color: white;
+}
+
+.contact-me .profile-img {
+  width: 60%;
+}
+
+@media (max-width: 800px) {
+  .contact-me .profile-img {
+    width: 40%;
+    margin: 40px 0;
+  }
+
+}
+
+button .icon{
+  margin-right: 5px;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0 10px;
+  text-align: center;
+}
+
+.footer-container {
+
+  max-width: 960px;
+  margin: 170px auto 0;
+}
+
+.footer-icon {
+  color: black;
+  margin: 14px 8px;
+}
+
+.footer p {
+  font-size: 15px;
+  color: #1f1d19;
+}
+
+/* Portfolio */
+.portfolio-header {
+  font-family: "Montserrat";
+  display: block;
+  font-weight: 500;
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 30px; /* Space between cards */
+  justify-content: center; /* Center horizontally */
+  max-width: 75%; /* Set a maximum width for the container */
+  margin: 50px auto; /* Center the container on the page */
+}
+
+@media (max-width: 1050px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portfolio-card {
+  position: relative;
+  height: 200px;
+  color: #164B60;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card img {
+  max-width: 130px;
+  max-height: 130px;
+  margin-right: 20px;
+}
+
+.card-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+card-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-images img {
+  max-width: 50px;
+}
+
+.button-group {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.project-link {
+  color: #164B60;
+  margin: 0 8px;
+}
+
+.project-link:hover {
+  color: #98EECC;
+}
+
+
+  
+
+
+/* Form */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  font-family: "Montserrat";
+}
+
+.wrap-contact {
+  width: 550px;
+  padding: 50px 0 160px;
+}
+
+form {
+  display: block;
+}
+
+.form-title {
+  display: block;
+  font-weight: 500;
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+div.form-title{
+  align-items: center;
+  justify-content: center;
+  color: #176B87;
+}
+
+.form-title button {
+  margin-top: 30px;
+}
+
+.form-title h3{
+  padding-top: 20px;
+  line-height: 1.5;
+}
+
+.wrap-input {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 31px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.validate-input {
+  position: relative;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.input {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 31px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+input.input {
+  height: 62px;
+  padding: 0 35px;
+}
+
+.focus-input {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  border-radius: 31px;
+  pointer-events: none;
+}
+
+textarea{
+  outline: none;
+  border: none;
+  overflow: auto;
+  resize: vertical;
+}
+
+textarea.input {
+  min-height: 169px;
+  padding: 19px 35px 0;
+}
+
+.container-btn-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.btn-form {
+  font-family: "Ubuntu";
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 62px;
+  background-color: transparent;
+  border-radius: 31px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  background-color: #98EECC;
+  transition: all 0.4s ease;
+}
+
+
+.btn-form:hover {
+  min-width: 170px;
+  background-color: #164B60;
+  color: white;
+}
+
+
+.btn-icon {
+  margin-right: 6px;
+}
+button {
+  outline: none!important;
+  border: none;
+  background: 0 0;
+}
+
