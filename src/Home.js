@@ -34,7 +34,7 @@ export default function Home() {
         <div className="colored-section about-me">
             <h1>Get to Know Me!</h1>
             <div>
-                <img className="profile-img" src="images/IMG-1567.jpg" alt="image"/>
+                <img className="profile-img" src="images/IMG-1567.jpg" />
             </div>
             <h5>I am a Computer Science student at Tel Aviv University.
              Ever since I started the degree I was eeger to learn more, and so I began studying Full Stack development and Python programming at home.
@@ -114,7 +114,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <img className="profile-img" src="images/IMG-1567.jpg" alt="image"/>
+              <img className="profile-img" src="images/IMG-1567.jpg" />
             </div>
             <div className="contact-me-container">
               <p class="contact-text">Interested? Feel free to contact me!</p>
