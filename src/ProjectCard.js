@@ -9,9 +9,9 @@ export default function ProjectCard(props) {
       <div className="card-content">
         <h2>{props.title}</h2>
         <div className="card-images">
-          <img src={props.firstImage} />
-          {props.secondImage ? <img src={props.secondImage} /> : null}
-          {props.thirdImage ? <img src={props.thirdImage} /> : null}
+          <img src={props.firstImage} alt="dev tool" />
+          {props.secondImage ? <img src={props.secondImage} alt="dev tool" /> : null}
+          {props.thirdImage ? <img src={props.thirdImage} alt="dev tool" /> : null}
         </div>
         <div className="button-group">
         {props.website ? 
