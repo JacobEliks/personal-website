@@ -107,7 +107,7 @@ p.summury {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  padding: 20px;
+  padding: 0 20px;
   width: 90%;
   margin: 150px auto -150px;
   border-radius: 20px;
