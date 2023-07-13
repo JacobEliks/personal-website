@@ -45,7 +45,7 @@ export default function Home() {
         {imageLoaded ? 
         <div className="white-section">
           <CardGroup className="skills d-flex">
-          <Col sm={12} md={4}>
+          <Col xs={12} sm={12} md={4}>
             <Card className="h-100">
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faDatabase} /></div> Python programmer</Card.Title>
@@ -65,7 +65,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col sm={12} md={4}>
+            <Col xs={12} sm={12} md={4}>
             <Card className="h-100">
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faCode} /></div> Full Stack developer</Card.Title>
@@ -92,7 +92,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col sm={12} md={4} >
+            <Col xs={12} sm={12} md={4} >
             <Card className="h-100">
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faGraduationCap} /></div> Computer Science student</Card.Title>
