@@ -17,8 +17,8 @@
 }
 
 .link-text {
-  font-family: "Dancing Script";
-  font-size: 22px;
+  font-family: "Montserrat";
+  font-size: 20px;
 }
 
 /* Home */
@@ -36,7 +36,7 @@ h1 {
 
 
 .fs-img {
-  width: 55%;
+  width: 50%;
 }
 
 .colored-section {
@@ -118,6 +118,7 @@ p.summury {
 @media (max-width: 800px) {
   .contact-me {
     grid-template-columns: 1fr;
+    padding-bottom: 30px;
   }
 
 }
@@ -181,13 +182,6 @@ p.summury {
   width: 60%;
 }
 
-@media (max-width: 800px) {
-  .contact-me .profile-img {
-    width: 40%;
-    margin: 40px 0;
-  }
-
-}
 
 button .icon{
   margin-right: 5px;
@@ -310,7 +304,7 @@ card-images {
 }
 
 .wrap-contact {
-  width: 550px;
+  width: 45%;
   padding: 50px 0 160px;
 }
 
@@ -446,3 +440,32 @@ button {
   background: 0 0;
 }
 
+@media (max-width: 800px) {
+  .fs-img {
+    width: 75%;
+  }
+  .profile-img {
+    width: 55%;
+  }
+  .colored-section h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .contact-me .profile-img {
+    display: none;
+  }
+  .portfolio-text {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .contact-text {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .wrap-contact {
+    width: 80%;
+  }
+
+
+}
