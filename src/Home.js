@@ -1,4 +1,4 @@
-import { Card, CardGroup, Col } from "react-bootstrap"
+import { Card, CardGroup, Col, Row } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -15,6 +15,9 @@ export default function Home() {
     function handleImageLoad() {
       setImageLoaded(true)
     }
+    const cardStyle = {
+      minHeight: '900px'
+    };
     return (
       
       <>
@@ -34,7 +37,7 @@ export default function Home() {
         <div className="colored-section about-me">
             <h1>Get to Know Me!</h1>
             <div>
-                <img className="profile-img" src="images/IMG-1567.jpg" alt="profile" />
+                <img className="profile-img" src="images/IMG-1567.jpg" alt="image"/>
             </div>
             <h5>I am a Computer Science student at Tel Aviv University.
              Ever since I started the degree I was eeger to learn more, and so I began studying Full Stack development and Python programming at home.
@@ -45,8 +48,9 @@ export default function Home() {
         {imageLoaded ? 
         <div className="white-section">
           <CardGroup className="skills d-flex">
-          <Col xs={12} sm={12} md={4}>
-            <Card className="h-100">
+          <Row>
+            <Col xs={12} md={4}>
+            <Card style={cardStyle}>
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faDatabase} /></div> Python programmer</Card.Title>
                 <hr />
@@ -65,8 +69,8 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={12} sm={12} md={4}>
-            <Card className="h-100">
+            <Col xs={12} md={4}>
+            <Card style={cardStyle}>
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faCode} /></div> Full Stack developer</Card.Title>
                 <hr />
@@ -92,8 +96,8 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={12} sm={12} md={4} >
-            <Card className="h-100">
+            <Col xs={12} md={4}>
+            <Card style={cardStyle}>
               <Card.Body>
                 <Card.Title><div className="icon-border"><FontAwesomeIcon className="icon" icon={faGraduationCap} /></div> Computer Science student</Card.Title>
                 <hr />
@@ -103,6 +107,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
+            </Row>
           </CardGroup>
 
 
@@ -114,7 +119,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <img className="profile-img" src="images/IMG-1567.jpg" alt="profile" />
+              <img className="profile-img" src="images/IMG-1567.jpg" alt="image"/>
             </div>
             <div className="contact-me-container">
               <p class="contact-text">Interested? Feel free to contact me!</p>
