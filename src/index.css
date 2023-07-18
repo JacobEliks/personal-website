@@ -375,7 +375,7 @@ input.input {
   display: block;
   position: absolute;
   z-index: -1;
-  width: 100%;
+  
   height: 100%;
   top: 0;
   left: 50%;
@@ -440,6 +440,7 @@ button {
   background: 0 0;
 }
 
+
 @media (max-width: 800px) {
   .fs-img {
     width: 75%;
@@ -448,8 +449,10 @@ button {
     width: 55%;
   }
   .colored-section h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
+    line-height: 35px;
+    width: 80%;
   }
   .contact-me .profile-img {
     display: none;
@@ -461,6 +464,11 @@ button {
   .contact-text {
     margin-bottom: 20px;
     margin-top: 40px;
+  }
+
+
+  .additionalImage {
+    display: none;
   }
 
   .wrap-contact {
