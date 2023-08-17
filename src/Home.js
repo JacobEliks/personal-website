@@ -39,9 +39,9 @@ export default function Home() {
             <div>
                 <img className="profile-img" src="images/IMG-1567.jpg" alt="me"/>
             </div>
-            <h5>I am a Computer Science student at Tel Aviv University.
+            <h5>I am a Computer Science student at The Open University.
              Ever since I started the degree I was eeger to learn more, and so I began studying Full Stack development and Python programming at home.
-              Now, at my final year of my degree, I feel very confident and comfortable with my developing skills and have completed various projects - for my own use and for others.</h5>
+              Now that I have completed various projects - for my own use and for others, I feel very confident with my developing skills.</h5>
         </div>
         : null}
 
